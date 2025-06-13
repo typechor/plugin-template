@@ -11,12 +11,12 @@ if (!defined('__TYPECHO_ROOT_DIR__')) {
 }
 
 /**
- * %description%
+ * 
  *
- * @package %name%
- * @author %author%
+ * @package plugin-template
+ * @author typechor
  * @version %version%
- * @link %link%
+ * @link https://github.com/typechor/plugin-template
  */
 class Plugin implements PluginInterface
 {
