@@ -28,10 +28,11 @@ class Plugin implements PluginInterface
      */
     public static function activate()
     {
-        // 插件接口
+        // 插件接口，常见钩子方式
         // \Typecho\Plugin::factory('admin/menu.php')->navBar = __CLASS__ . '::render';
         // \Typecho\Plugin::factory('Widget_Archive')->footer = [__CLASS__, 'footer'];
         // Contents::pluginHandle()->contentEx = __CLASS__ . '::filter';
+        // \Typecho\Plugin::factory('Widget_Archive')->___charactersNum = __CLASS__ . '::charactersNum';
 
         // 添加菜单
         // Helper::addMenu('exampleMenu');
